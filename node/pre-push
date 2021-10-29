@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # test
-npm run test
+npm run test --if-present
 
 # format the code and commit it
-npm run format
+npm run format --if-present
 
 # commit the code when it's formatted
 git add .
